@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.nicolasarcay.com/">
-    <img src="img/logo-nicolas-arcay.png" alt="Nicolas Arcay Logo" width="72" height="72">
+    <img src="img/logo-nicolas-arcay.png" alt="Nicolas Arcay Logo" width="30%">
   </a>
 </p>
 
