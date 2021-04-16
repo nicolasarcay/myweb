@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "bootstrap-icons": "^1.4.1"
+  },
+  "scripts": {
+    "build": "purgecss --css ./css/preferences.css --content index.html -o ./css/optimized.css"
+  }
+}

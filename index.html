@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/apple-icon.png.webp">
+    <link rel="icon" type="image/png" href="./img/favicon.png.webp">
+    <title>
+        Nicolas Arcay - Diseño y Maquetación WEB - Bootstrap - Sass - CSS3 - HTML5 -JavaScript
+    </title>
+    <meta name="description" content="Diseñador y Maquetador WEB - HTML5 - CSS3 - SASS - Bootstrap" />
+    <meta name="keywords" content="">
+    <meta name="Robots" content="all" />
+    <link rel="stylesheet" href="css/optimized.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans+Condensed:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2KQF8E7WRH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2KQF8E7WRH');
+    </script>
+</head>
+
+<body>
+    <!-- Start Nav-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent main-navigation active scrolled">
+            <div class="container">
+                <a class="navbar-brand nav-link w-50"
+                    onclick="document.querySelector('#top').scrollIntoView({ block: 'start',  behavior: 'smooth' });">
+                    <img loading="lazy" class="img-fluid logo-img"
+                        src="https://www.nicolasarcay.com/img/logo-nicolas-arcay.png"
+                        alt="Logo Nicolas Arcay"></a>
+                <button class="navbar-toggler border-0" type="button" aria-label="menu">
+                    <span class="navbar-toggler-bar"></span>
+                    <span class="navbar-toggler-bar w-70"></span>
+                    <span class="navbar-toggler-bar"></span>
+                </button>
+                <div class="d-flex d-lg-none overlay"></div>
+                <div class="d-lg-flex w-100  justify-content-end align-items-center bg-lg px-4 sidebar" id="navbarNav">
+                    <ul class="navbar-nav my-2 my-lg-0">
+                        <li class="nav-item pe-2">
+                            <a class="nav-link text-uppercase text-white fw-bold"
+                                onclick="document.querySelector('#tecnology').scrollIntoView({ block: 'start',  behavior: 'smooth' });">Tecnologias</a>
+                        </li>
+                        <li class="nav-item pe-2">
+                            <a class="nav-link text-uppercase text-white fw-bold"
+                                onclick="document.querySelector('#github').scrollIntoView({ block: 'start',  behavior: 'smooth' });">GitHub</a>
+                        </li>
+                        <li class="nav-item pe-2">
+                            <a class="nav-link text-uppercase text-white fw-bold"
+                                onclick="document.querySelector('#portfolio').scrollIntoView({ block: 'start',  behavior: 'smooth' });">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-secondary text-dark fw-bold rounded-3 text-uppercase"
+                                onclick="document.querySelector('#contact').scrollIntoView({ block: 'end',  behavior: 'smooth' });">Contacto</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Nav-->
+    <!-- Start Content -->
+    <!-- Start Welcome -->
+    <main id="top" class="container-fluid container-sky">
+        <img loading="lazy" class="container-world img-fluid" src="./img/nicolasarcay-background-botton.png"
+                alt="paisaje de un planeta">
+        <div class="row container-text">
+            <h1 class="container-text-h1-seo">Diseño y Maquetación WEB</h1>
+            <h2 class="fw-bold container-text-h2-description text-white">HTML5 - CSS3 - SASS - Bootstrap</h2>
+        </div>
+        <i></i>
+    </main>
+    <!-- End Welcomer-->
+    <!-- Start Start -->
+    <section class="section-components bg-dark height-max">
+        <div class="container">
+            <div class="row justify-content-center pt-lg-8 pt-8">
+                <div class="col-md-8 text-white">
+                    <h2 class="text-center fw-bold h1">Desarrollador Front End</h2>
+                    <h3 class="text-center h5">De una plantilla grafica a HTML5 y CSS3</h3>
+                    <div class="space-50"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 components">
+                    <div class="components-container first-card">
+                        <div class="components-component">
+                            <div class="components-front">
+                                <img loading="lazy" class="img-fluid"
+                                    src="https://www.nicolasarcay.com/img/nicolas-arcay-page1.jpg.webp"
+                                    alt="Captura de pantalla Vendimia.com">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 components">
+                    <div class="components-container second-card">
+                        <div class="components-component">
+                            <div class="components-front">
+                                <img loading="lazy" class="img-fluid"
+                                    src="https://www.nicolasarcay.com/img/nicolas-arcay-page2.jpg.webp"
+                                    alt="Captura de pantalla Los Robles">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 components">
+                    <div class="components-container third-card">
+                        <div class="components-component">
+                            <div class="components-front">
+                                <img loading="lazy" class="img-fluid"
+                                    src="https://www.nicolasarcay.com/img/nicolas-arcay-page3.jpg.webp"
+                                    alt="Captura de pantalla Template 2 Github">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 components">
+                    <div class="components-container fourth-card">
+                        <div class="components-component">
+                            <div class="components-front">
+                                <img loading="lazy" class="img-fluid"
+                                    src="https://www.nicolasarcay.com/img/nicolas-arcay-page4.jpg.webp"
+                                    alt="Captura de pantalla wondermarketing.com.ar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Start-->
+    <!-- Start Simple -->
+    <section id="tecnology" class="section-basic py-md-10 py-8">
+        <div class="container">
+            <div class="row align-items-center justify-content-md-center">
+                <div class="col-lg-5 col-md-11 mx-lg-0 px-4 px-lg-0">
+                    <h2 class="fw-bold">Manteniendolo Simple</h2>
+                    <h3 class="py-2 h6">Diseños con codigo limpio y bien estructurado</h3>
+                    <h4 class="h5 pe-3">Utilizo HTML5, CSS3, SASS, Javascript y Bootstrap para lograr
+                        paginas atractivas. Logro altos standars de optimizacion en Performance, Accesibilidad, Buenas
+                        Practicas y SEO.<br>
+                        Para la construccion de proyectos puntales he utilizado Wordpress, utlizando templates premium
+                        para su edición.</h3>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="images">
+                        <img loading="lazy" class="images-macbook img-fluid"
+                            src="https://www.nicolasarcay.com/img/ipad.png.webp" alt="ipad con pagina web">
+                        <img loading="lazy" class="images-table" src="https://www.nicolasarcay.com/img/table.jpg.webp"
+                            alt="Captura de pantalla productos">
+                        <img loading="lazy" class="images-share-btn"
+                            src="https://www.nicolasarcay.com/img/share-btn.jpg.webp"
+                            alt="imagen de un boton compartir">
+                        <img loading="lazy" class="images-coloured-card"
+                            src="https://www.nicolasarcay.com/img/coloured-card-with-btn.jpg.webp"
+                            alt="captura de pantalla beatriz morello">
+                        <img loading="lazy" class="images-coloured"
+                            src="https://www.nicolasarcay.com/img/coloured-card.jpg.webp"
+                            alt="captura de pantalla performance">
+                        <img loading="lazy" class="images-social"
+                            src="https://www.nicolasarcay.com/img/social-row.jpg.webp" alt="social media">
+                        <img loading="lazy" class="images-linkedin"
+                            src="https://www.nicolasarcay.com/img/linkedin-btn.jpg.webp"
+                            alt="imagen de un boton linkedin">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Simple -->
+    <!-- Start Github -->
+    <section id="github" class="section github bg-white py-md-7 mt-lg-n7">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 order-lg-1 order-2">
+                    <div class="github-image">
+                        <img loading="lazy" class="github-image-two github-images rounded mt-n7 mt-lg-0"
+                            src="https://www.nicolasarcay.com/img/template-two-nicolas-arcay-github.jpg.webp"
+                            alt="Captura de pantalla template 2 github">
+                        <img loading="lazy" class="github-image-one github-images rounded"
+                            src="https://www.nicolasarcay.com/img/template-one-nicolas-arcay-github.jpg.webp"
+                            alt="Captura de pantalla template 1 github">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 px-4 px-lg-0 mb-8 order-lg-2 order-1">
+                    <div class="section-description pb-6">
+                        <h2 class="text-dark mb-2 pt-6 fw-bold">GitHub</h2>
+                        <h3 class="text-dark h6 mb-2">Algunos proyectos y templates que he realizado</h3>
+                        <h4 class="text-dark h5">Proyectos para cursos que realice, y podran encontrar 2 templates
+                            realizados en Bootstrap 4.
+                        </h4>
+                        <div class="mb-3 mt-4">
+                            <a class="btn btn-secondary text-dark rounded-3 text-uppercase fw-bold"
+                                href="https://github.com/nicolasarcay" rel="noreferrer" target="_blank">GitHub</a>
+                        </div>
+                        <div class="mb-3">
+                            <a class="btn btn-secondary text-dark rounded-3 text-uppercase fw-bold"
+                                href="https://github.com/nicolasarcay/template-one" rel="noreferrer"
+                                target="_blank">Template One</a>
+                        </div>
+                        <div>
+                            <a class="btn btn-secondary text-dark rounded-3 text-uppercase fw-bold"
+                                href="https://github.com/nicolasarcay/template-two" rel="noreferrer"
+                                target="_blank">Template Two</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Github -->
+    <!-- Star Portfolio -->
+    <section id="portfolio" class="section-portfolio bg-dark">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <div class="section-portfolio-description pt-7">
+                        <h2 class="fw-bold text-white pt-lg-6">Portfolio</h2>
+                        <h3 class="text-white h5">Algunas páginas que realice en HTML5, CSS, Sass, Bootstrap o
+                            en Wordpress, con Divi y Woocomerce para realizar tiendas Online</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <h4 class="text-white pt-lg-6 pb-2 pt-4 fw-bold h5">Vendimia.com</h4>
+                    <div class="section-portfolio-card">
+                        <img loading="lazy" class="img-fluid"
+                            src="https://www.nicolasarcay.com/img/nicolas-arcay-page-vendimia.jpg.webp"
+                            alt="Captura de pantalla Vendimia.com">
+                    </div>
+                    <h4 class="text-white pt-lg-6 pb-2 pt-4 fw-bold h5">Beatriz Morello</h4>
+                    <div class="section-portfolio-card">
+                        <img loading="lazy" class="img-fluid"
+                            src="https://www.nicolasarcay.com/img/nicolas-arcay-page-beatrizmorello.jpg.webp"
+                            alt="Captura de pantalla beatrizmorello.com.ar">
+                    </div>
+                    <h4 class="text-white pt-lg-6 pb-2 pt-4 fw-bold h5">Template One - Github</h4>
+                    <div class="section-portfolio-card">
+                        <img loading="lazy" class="img-fluid"
+                            src="https://www.nicolasarcay.com/img/nicolas-arcay-demo-github.jpg.webp"
+                            alt=" Captura de pantalla Template en Github">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-white pt-lg-6 pb-2 pt-4 fw-bold h5">La Oveja Negra Teatro</h4>
+                    <div class="section-portfolio-card">
+                        <img loading="lazy" class="img-fluid"
+                            src="https://www.nicolasarcay.com/img/nicolas-arcay-page-laovejanegra.jpg.webp"
+                            alt="Captura de pantalla laovejanegrateatro.org.ar">
+                    </div>
+                    <h4 class="text-white pt-lg-6 pb-2 pt-4 fw-bold h5">Mi Bodega Online - Producto</h4>
+                    <div class="section-portfolio-card">
+                        <img loading="lazy" class="img-fluid"
+                            src="https://www.nicolasarcay.com/img/nicolas-arcay-page-mibodegaonline-producto.jpg.webp"
+                            alt="Captura de pantalla producto de mibodegaonline.com">
+                    </div>
+                    <h4 class="text-white pt-lg-6 pb-2 pt-4 fw-bold h5">Moon-Moo Taekwondo</h4>
+                    <div class="section-portfolio-card">
+                        <img loading="lazy" class="img-fluid"
+                            src="https://www.nicolasarcay.com/img/nicolas-arcay-page-taekwondo.jpg.webp"
+                            alt="Captura de pantalla taekwondomoonmoo.com.ar">
+                    </div>
+                    <h4 class="text-white pt-lg-6 pb-2 pt-4 fw-bold h5">Demo Inicio Productos</h4>
+                    <div class="section-portfolio-card">
+                        <img loading="lazy" class="img-fluid"
+                            src="https://www.nicolasarcay.com/img/nicolas-arcay-demo-coalix.jpg.webp"
+                            alt="Captura de pantalla demostración incio">
+                    </div>
+                </div>
+                <div class="col-md-4 pb-7">
+                    <h4 class="text-white pt-lg-6 pb-2 pt-4 fw-bold h5">Sofia Almagro</h4>
+                    <div class="section-portfolio-card">
+                        <img loading="lazy" class="img-fluid"
+                            src="https://www.nicolasarcay.com/img/nicolas-arcay-page-sofia-almagro.jpg.webp"
+                            alt="Captura de pantalla sofiaalmagro.com">
+                    </div>
+                    <h4 class="text-white pt-lg-6 pb-2 pt-4 fw-bold h5">Rodio Consulting</h4>
+                    <div class="section-portfolio-card">
+                        <img loading="lazy" class="img-fluid"
+                            src="https://www.nicolasarcay.com/img/nicolas-arcay-page-rodio-consulting.jpg.webp"
+                            alt="Captura de pantalla rodioconsulting.com">
+                    </div>
+                    <h4 class="text-white pt-lg-6 pb-2 pt-4 fw-bold h5">Wonder Marketing</h4>
+                    <div class="section-portfolio-card">
+                        <img loading="lazy" class="img-fluid"
+                            src="https://www.nicolasarcay.com/img/nicolas-arcay-page-wondermarketing.jpg.webp"
+                            alt="Captura de pantalla wondermarketing.com.ar">
+                    </div>
+                    <h4 class="text-white pt-lg-6 pb-2 pt-4 fw-bold h5">La Oveja Negra - Producto</h4>
+                    <div class="section-portfolio-card">
+                        <img loading="lazy" class="img-fluid"
+                            src="https://www.nicolasarcay.com/img/nicolas-arcay-page-laovejanegra-producto.jpg.webp"
+                            alt="Captura de pantalla obra de teatro laovejanegrateatro.org.ar">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Portfolio -->
+    <!-- Start Footer -->
+    <footer id="contact">
+        <div class="container section-contact py-7">
+            <div class="row justify-content-center p-4">
+                <div class="col-8 pt-3 pb-5">
+                    <h2 class="fw-bold text-dark text-center">Entremos en contacto</h2>
+                    <h3 class="text-center text-dark h5">Completa el formulario y a la brevedad me pondre en contacto.
+                    </h3>
+                </div>
+                <form class="col-12 col-lg-7 p-3 section-contact-form" action="sendmail.php" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label visually-hidden text-dark ">Nombre Completo</label>
+                        <input type="text"
+                            class="form-control rounded-0 border-3 border-top-0 border-end-0 border-start-0 border-bottom border-primary p2"
+                            name="name" id="name" placeholder="Nombre Completo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label visually-hidden text-dark">Email</label>
+                        <input type="email"
+                            class="form-control rounded-0 border-3 border-top-0 border-end-0 border-start-0 border-bottom border-primary p2"
+                            name="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label visually-hidden text-dark">Mensaje</label>
+                        <textarea
+                            class="form-control rounded-0 border-3 border-top-0 border-end-0 border-start-0 border-bottom border-primary p2"
+                            name="message" id="message" rows="3" placeholder="Mensaje"></textarea>
+                    </div>
+                    <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                    <button type="submit" class="btn btn-primary text-white">Enviar</button>
+                </form>
+                <div class="col-lg-5 col-12 section-contact-social text-center">
+                    <h4 class="h3 fw-bold py-3 h6">Mis Redes Sociales</h4>
+                    <a href="https://api.whatsapp.com/send?phone=+542657680000&text=Quiero%20mas%20informaci%C3%B3n%20de%20los%20servicios%20que%20brindas"
+                        rel="noreferrer" target="_blank"><i class="bi-whatsapp h1 pe-3 whatsapp"></i><span
+                            class="visually-hidden">Enviar Whatsapp</span></a>
+                    <a href="https://github.com/nicolasarcay" rel="noreferrer" target="_blank"><i
+                            class="bi-github h1 pe-3"></i><span class="visually-hidden">Github</span></a>
+                    <a href="https://www.linkedin.com/in/nicolas-arcay/" rel="noreferrer" target="_blank"><i
+                            class="bi-linkedin h1 linkedin"></i><span class="visually-hidden">linkedin</span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- End Content-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/swiped-events.js"></script>
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".bg-transparent");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        const urlParams = new URLSearchParams(window.location.search);
+        const myParam = urlParams.get('enviado');
+        if (myParam != undefined) {
+            alert('El Mensaje ha sido enviado con exito. A la Brevedad nos pondremos en contacto');
+        };
+        function star(){
+            let count = 500;
+            let scene = document.querySelector ('.container-sky');
+            let i = 0;
+            while (i < count) {
+                let star = document.createElement ("i");
+                let x = Math.floor(Math.random() * window.innerWidth);
+                let y = Math.floor(Math.random() * window.innerHeight);
+                let duration = Math.random() * 10;
+                let size = Math.random() * 2;
+                star.style.left = x+'px';
+                star.style.top = y+'px';
+                star.style.width = 1+size+'px';
+                star.style.height = 1+size+'px';
+                star.style.animationDuration = 5+duration+'s';
+                star.style.animationDelay = duration+'s';
+                scene.appendChild (star)
+                i++
+            }
+        }
+        star();
+    </script>
+</body>
+
+</html>

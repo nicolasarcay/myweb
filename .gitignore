@@ -1,0 +1,30 @@
+# Ignore docs files
+
+# Hugo folders
+
+# Ignore ruby/bundler files
+
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.zip
+*.scss
+*.php
+*~
+
+# OS or Editor folders
+
+# Local Netlify folder
+
+# Komodo
+
+# Folders to ignore
+/PHPMailer/
+/node_modules/
